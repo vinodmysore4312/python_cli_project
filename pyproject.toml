@@ -5,6 +5,10 @@ build-backend = "setuptools.build_meta"
 [project]
 name= "mycli"
 version="1.0.0"
+description = "A CLI application"
+readme = "README.md"
+authors = [{ name = "vinod mysore", email = "vinodmysore4312@gmail.com" }]
+dependencies = []
 
 [project.scripts]
 mycli = "mycli.__main__:main"
