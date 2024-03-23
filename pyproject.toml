@@ -1,0 +1,11 @@
+[build-system]
+requires = ["setuptools>=65.5.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name= "mycli"
+version="1.0.0"
+
+[project.scripts]
+mycli = "mycli.__main__:main"
+
